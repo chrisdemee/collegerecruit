@@ -101,3 +101,10 @@ html, body {
 main {
   flex: 1;
 }
+
+h2 {
+  font-family: "amifer", sans-serif;
+font-weight: 700;
+font-style: normal;
+color: red;
+}
