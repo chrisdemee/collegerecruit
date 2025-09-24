@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact - Rutgers Recruit</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-danger shadow-sm fixed-top">
+        <div class="container">
+          <a href="home.html" class="navbar-brand fw-bold">Rutgers</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="courses.html" class="nav-link">Courses</a></li>
+              <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="container mt-5 pt-5">
+      <h1 class="fw-bold text-center mb-4">Contact Us</h1>
+      <p class="text-center lead mb-5">
+        Have questions about Rutgers Recruit? Reach out to us!
+      </p>
+
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="name@example.com" />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Write your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Alumni Randomizer Section -->
+      <section class="text-center py-5 bg-light rounded shadow-sm">
+        <h2 class="fw-bold mb-3">Famous Rutgers Alumni</h2>
+        <p class="mb-4">Click the Rutgers logo to discover a random alum!</p>
+        <button id="alumniBtn" class="btn border-0 bg-transparent">
+          <img src="https://cdn.freebiesupply.com/logos/large/2x/rutgers-scarlet-knights-logo-png-transparent.png" alt="Rutgers Logo" width="120" />
+        </button>
+        <h4 id="alumniName" class="mt-3 text-danger fw-bold"></h4>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-4 mt-auto w-100">
+      <div class="container">
+        <p class="mb-1">Rutgers University • New Brunswick, NJ</p>
+        <p class="mb-0">Contact: info@rutgers.edu | (123) 456-7890</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,12 +1,13 @@
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   margin: 0;
+  padding-top: 90px; /* match navbar height */
   background-color: #f8f9fa;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  min-height: 100vh; /* ensures full page height */
+}
+body {
+  margin-top: 0px; 
 }
 
 .navbar {
@@ -92,10 +93,8 @@ img {
 
 
 html, body {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
+  height: auto; 
+  display: block; 
 }
 
 main {
@@ -107,4 +106,63 @@ h2 {
 font-weight: 700;
 font-style: normal;
 color: red;
+}
+
+/* Card Styling */
+.card {
+  border: none;
+  border-radius: 0.75rem; /* softer edges */
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+
+.card::before {
+  content: "";
+  display: block;
+  height: 6px;
+  background: #cc0033; 
+}
+
+.card-title {
+  font-family: "proxima-nova", sans-serif; /* from your Adobe Fonts link */
+  font-weight: 700;
+  color: #cc0033;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.card-text,
+.card p.small {
+  font-family: "proxima-nova", sans-serif;
+  color: #333;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Buttons inside cards */
+.card .btn {
+  border-radius: 50px;
+  font-weight: 600;
+  padding: 0.4rem 1.2rem;
+  transition: all 0.2s ease;
+}
+
+.card .btn-outline-danger:hover {
+  background-color: #cc0033;
+  color: #fff;
+  border-color: #cc0033;
+}
+body {
+  padding-top: 70px;  
+  min-height: 100vh;   
+}
+
+main {
+  margin-top: 70px; 
 }

@@ -1,63 +1,194 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <title>Rutgers Recruit - Courses</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/bjv0nvx.css">
+    <title>Rutgers Recruit</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<body>
-  <header class="site-header">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">Rutgers Recruit</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
-            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-          </ul>
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-danger shadow-sm fixed-top">
+        <div class="container">
+          <a href="home.html" class="navbar-brand fw-bold">Rutgers</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="courses.html" class="nav-link">Courses</a></li>
+              <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="mt-5 pt-5">
+      <!-- Hero Section -->
+
+      <section class="py-5">
+  <div class="container">
+    <h2 class="fw-bold text-center mb-4">Academic Programs</h2>
+    <div class="row g-4">
+
+      <!-- Science & Technology -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">Science & Technology</h5>
+            <p class="card-text">
+              Majors: Computer Science, Engineering, Data Science, Biology.
+            </p>
+            <p class="small">
+              <strong>Curriculum:</strong> Core courses in programming, calculus, physics, and lab research.
+            </p>
+            <p class="small">
+              <strong>Faculty Expertise:</strong> Professors leading research in AI, renewable energy, and biotechnology.
+            </p>
+            <a href="courses.html" class="btn btn-outline-danger btn-sm">View Programs</a>
+          </div>
         </div>
       </div>
-    </nav>
-  </header>
 
-  <main class="container py-5">
-    <h1 class="mb-4">Courses</h1>
+      <!-- Arts & Humanities -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">Arts & Humanities</h5>
+            <p class="card-text">
+              Majors: English, History, Philosophy, Fine Arts, Communication.
+            </p>
+            <p class="small">
+              <strong>Curriculum:</strong> Writing-intensive courses, critical theory, creative projects, and cultural studies.
+            </p>
+            <p class="small">
+              <strong>Faculty Expertise:</strong> Published authors, historians, and award-winning artists.
+            </p>
+            <a href="courses.html" class="btn btn-outline-danger btn-sm">View Programs</a>
+          </div>
+        </div>
+      </div>
 
-    <section id="available-programs" class="mb-5">
-      <h2>Available Programs</h2>
-      <p>Details about majors, minors, and special academic programs...</p>
-    </section>
+      <!-- Business & Leadership -->
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">Business & Leadership</h5>
+            <p class="card-text">
+              Majors: Finance, Marketing, Management, Accounting, Supply Chain.
+            </p>
+            <p class="small">
+              <strong>Curriculum:</strong> Courses in economics, business analytics, leadership seminars, and capstone projects.
+            </p>
+            <p class="small">
+              <strong>Faculty Expertise:</strong> Industry professionals with experience in Fortune 500 companies and global consulting.
+            </p>
+            <a href="courses.html" class="btn btn-outline-danger btn-sm">View Programs</a>
+          </div>
+        </div>
+      </div>
 
-    <section id="curriculum-details" class="mb-5">
-      <h2>Curriculum Details</h2>
-      <p>Sample course requirements and academic pathways...</p>
-    </section>
+    </div>
+  </div>
+</section>
 
-    <section id="faculty" class="mb-5">
-      <h2>Faculty Profiles</h2>
-      <p>Meet distinguished faculty members and their expertise...</p>
-    </section>
-    
-    <section id="cost-financial-aid" class="mb-5">
-      <h2>Cost and Financial Aid</h2>
-      <p>Information about tuition, scholarships, and financial aid resources...</p>
-    </section>
 
-    <section id="alumni-success" class="mb-5">
-      <h2>Alumni Success</h2>
-      <p>Stories about graduates, career outcomes, and networking opportunities...</p>
-    </section>
-  </main>
 
-  <footer class="text-center py-3 bg-light">
-    <p>&copy; 2025 Rutgers Recruit</p>
-  </footer>
-</body>
-</html>
+<section class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4">Student Life</h2>
+    <p class="mb-4">
+      Rutgers has three campuses full of life, opportunity, and community.
+    </p>
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">New Brunswick Campus</h5>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.762!2d-74.4518!3d40.5000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3c6c7a1dbb2ef%3A0x60f7d9193df2b2!2sRutgers%20University-New%20Brunswick!5e0!3m2!1sen!2sus!4v000000000"
+              width="100%"
+              height="250"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">Newark Campus</h5>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3026.762!2d-74.1745!3d40.7420!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2537a1d000001%3A0x1234567890abcdef!2sRutgers%20University-Newark!5e0!3m2!1sen!2sus!4v000000000"
+              width="100%"
+              height="250"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+
+   
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="card-title">Camden Campus</h5>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.762!2d-75.1196!3d39.9489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c99f14d00001%3A0xabcdefabcdef1234!2sRutgers%20University-Camden!5e0!3m2!1sen!2sus!4v000000000"
+              width="100%"
+              height="250"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-light text-center py-4 mt-auto w-100">
+  <div class="container">
+    <p class="mb-1">Rutgers University • New Brunswick, NJ</p>
+    <p class="mb-0">Contact: info@rutgers.edu | (123) 456-7890</p>
+  </div>
+</footer>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7
