@@ -166,3 +166,46 @@ body {
 main {
   margin-top: 70px; 
 }
+
+.alumni-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 30px auto;
+  max-width: 600px;
+  animation: fadeInUp 1s ease;
+}
+
+.info-card {
+  background: linear-gradient(135deg, #cc0033, #990026);
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card i {
+  font-size: 30px;
+  margin-bottom: 10px;
+  display: block;
+  color: #ffd700;
+}
+
+.info-card:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

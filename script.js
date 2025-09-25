@@ -16,3 +16,9 @@ document.getElementById("alumniBtn").addEventListener("click", () => {
   const randomIndex = Math.floor(Math.random() * alumni.length);
   document.getElementById("alumniName").textContent = alumni[randomIndex];
 });
+
+document.getElementById("alumniBtn").addEventListener("click", () => {
+  const alumniInfo = document.getElementById("alumniInfo");
+  alumniInfo.classList.toggle("d-none");
+});
+
