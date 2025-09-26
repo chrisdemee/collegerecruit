@@ -12,17 +12,19 @@ const alumni = [
   "Junot Díaz – Pulitzer Prize-winning Author"
 ];
 
+// when  alumni button is clicked it picks a random alumni name and it shows 
 document.getElementById("alumniBtn").addEventListener("click", () => {
   const randomIndex = Math.floor(Math.random() * alumni.length);
   document.getElementById("alumniName").textContent = alumni[randomIndex];
 });
 
+// When the alumni button is clicked it shows extra section  
 document.getElementById("alumniBtn").addEventListener("click", () => {
   const alumniInfo = document.getElementById("alumniInfo");
   alumniInfo.classList.toggle("d-none");
 });
 
-// Show thank you message on form submit
+// shows thank you when submit is clicked
 const form = document.getElementById("contactForm");
 const thankYouMessage = document.getElementById("thankYouMessage");
 
