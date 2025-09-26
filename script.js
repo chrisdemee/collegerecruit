@@ -22,3 +22,14 @@ document.getElementById("alumniBtn").addEventListener("click", () => {
   alumniInfo.classList.toggle("d-none");
 });
 
+// Show thank you message on form submit
+const form = document.getElementById("contactForm");
+const thankYouMessage = document.getElementById("thankYouMessage");
+
+form.addEventListener("submit", function(event) {
+  event.preventDefault();           // prevent page reload
+  thankYouMessage.style.display = "block"; // show message
+  form.reset();                     // optional: clear form fields
+});
+
+
