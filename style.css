@@ -1,10 +1,10 @@
 body {
   margin: 0;
-  padding-top: 90px; /* match navbar height */
+  padding-top: 90px; 
   background-color: #f8f9fa;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
-  min-height: 100vh; /* ensures full page height */
+  min-height: 100vh; 
 }
 body {
   margin-top: 0px; 
@@ -108,10 +108,9 @@ font-style: normal;
 color: red;
 }
 
-/* Card Styling */
 .card {
   border: none;
-  border-radius: 0.75rem; /* softer edges */
+  border-radius: 0.75rem;
   overflow: hidden;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
@@ -125,7 +124,7 @@ color: red;
 }
 
 .card-title {
-  font-family: "proxima-nova", sans-serif; /* from your Adobe Fonts link */
+  font-family: "proxima-nova", sans-serif; 
   font-weight: 700;
   color: #cc0033;
   margin-bottom: 0.75rem;
@@ -139,13 +138,12 @@ color: red;
   color: #333;
 }
 
-/* Hover effect */
+
 .card:hover {
   transform: translateY(-8px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-/* Buttons inside cards */
 .card .btn {
   border-radius: 50px;
   font-weight: 600;
@@ -217,9 +215,9 @@ font-style: normal;
 }
 
 .mission-img {
-  width: 100%;          /* fills its column */
-  max-width: 400px;     /* make them larger than default */
-  height: auto;         /* keeps aspect ratio */
+  width: 100%;      
+  max-width: 400px;     
+  height: auto;         
 }
 
 h2 {
@@ -228,24 +226,22 @@ font-weight: 400;
 font-style: normal;
 }
 
-/* Change font for Famous Rutgers Alumni heading */
 section.text-center h2 {
-    font-family: 'Georgia', serif; /* replace with any font you like */
+    font-family: 'Georgia', serif; 
     font-weight: 700;
-    color: #cc0033; /* optional: Rutgers red */
+    color: #cc0033; 
 }
 
-/* Apply same font to Contact Us and Famous Rutgers Alumni */
 h1, section.text-center h2 {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
-    color: #cc0033; /* optional: Rutgers red */
+    color: #cc0033; 
 }
 
 
 section.text-center h2 {
-    font-family: 'Roboto Slab', serif; /* consistent with other headings */
-    color: #cc0033; /* Rutgers red */
+    font-family: 'Roboto Slab', serif; 
+    color: #cc0033; 
     letter-spacing: 1px;
 }
 
@@ -254,7 +250,7 @@ section.text-center ul li {
 }
 
 section.text-center ul li::before {
-    content: "★ "; /* red star bullet */
+    content: "★ "; 
     color: #cc0033;
 }
 
@@ -324,4 +320,15 @@ section.py-5.bg-light p {
     font-size: 1.1rem;
     line-height: 1.8;
     color: #333;
+}
+
+.card-body, 
+.card-body .card-title, 
+.card-body .card-text {
+ font-family: "baga", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.card-title {
+  color: #cc0033;
 }
